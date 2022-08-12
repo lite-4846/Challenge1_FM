@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      #yare {
+        background-color: hsl(0, 0%, 100%);
+        margin: 10% 40%;
+        padding: 1rem;
+      }
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: Outfit, "sans-serif";
+      }
+      .t1 {
+        font-weight: 700;
+        font-size: 22px;
+      }
+      .t2 {
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      @media (max-width : 375px) {
+        #yare {
+          margin: 10% 10%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="yare" class="mx-auto flex flex-col rounded-xl">
+      <div class="pic">
+        <img src="./images/image-qr-code.png" class="rounded-xl" alt="qrcode" />
+      </div>
+      <div class="text-center p-2 mt-2">
+        <p class="t1">Improve your front-end skills by building projects</p>
+        <p class="t2 mt-1 p-1">
+          Scan this QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
